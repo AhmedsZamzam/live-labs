@@ -146,7 +146,6 @@ You can use Confluent Cloud CLI to submit all the source connectors automaticall
 Run a script that uses your `.env` file to generate real connector configuration json files from the example files located in the `confluent` folder.
 
 ```bash
-cd DIMT2024/confluent
 ./create_connector_files.sh
 ```
 
@@ -175,7 +174,6 @@ You can create the connector either through CLI or Confluent Cloud web UI.
 1. Run the following commands to create Datagen source connectors.
 
    ```bash
-   cd DIMT2024/confluent
    confluent connect cluster create --config-file actual_datagen_clickstream.json
    confluent connect cluster create --config-file actual_datagen_shoe_customers.json
    confluent connect cluster create --config-file actual_datagen_shoe_orders.json
