@@ -288,7 +288,8 @@ If you’re interested in learning more about Flink, you can take the Apache Fli
         rating DOUBLE,
         PRIMARY KEY (id) NOT ENFORCED
     );
-
+    ```
+    ```sql
     INSERT INTO deduplicated_shoes(
         SELECT id, brand, name, sale_price, rating
         FROM (
