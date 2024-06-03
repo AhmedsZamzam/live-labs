@@ -92,7 +92,7 @@ Update the `.accounts` file for the following variables with your credentials.
 1. Navigate to the repo's terraform directory.
 
    ```bash
-   cd DIMT2024/terraform
+   cd ../terraform
    ```
 
 1. Initialize Terraform within the directory.
