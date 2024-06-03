@@ -12,6 +12,7 @@ Welcome to HappyFeet store - Where Every Step Matters! In this workshop, we harn
 
 In order to successfully complete this demo you need to install few tools before getting started.
 
+- Open [this spreadsheet](https://docs.google.com/spreadsheets/d/1ApQG3yjrSF1XNw1H9iozgvjFEbX8WtMxeQMeSMawxNY/edit#gid=0) and put your name against one instance.
 - If you don't have a Confluent Cloud account, sign up for a free trial [here](https://www.confluent.io/confluent-cloud/tryfree).
 - Install Confluent Cloud CLI by following the instructions [here](https://docs.confluent.io/confluent-cli/current/install.html).
 - Sign up for a free MongoDB Atlas account [here](https://www.mongodb.com/cloud/atlas/register?utm_campaign=devrel&utm_source=workshop&utm_medium=cta&utm_content=Confluent%20x%20AWS%20x%20MongoDB%20Workshop%20%40%20Data%20in%20Motion%20Tour%20FY25&utm_term=jade.furubayashi).
@@ -21,7 +22,8 @@ In order to successfully complete this demo you need to install few tools before
 
 ## Setup
 
-1. This demo uses Terraform and bash scripting to create and teardown infrastructure and resources.
+1. SSH into the instance claimed using an SSH Client.
+2. This demo uses Terraform and bash scripting to create and teardown infrastructure and resources.
 
 1. Clone and enter this repository.
 
