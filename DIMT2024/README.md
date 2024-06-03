@@ -377,7 +377,6 @@ You can create the MongoDB Atlas Sink connector either through CLI or Confluent 
 1. Run the following command to create the MongoDB Atlas Sink connector.
 
    ```bash
-   cd DIMT2024/confluent
    confluent connect cluster create --config-file actual_mongodb_sink.json
    ```
 
@@ -415,13 +414,12 @@ Congratulations on building your streaming data pipelines in Confluent Cloud! Yo
 1. Run the following command to delete all connectors
 
    ```bash
-   cd DIMT2024/confluent
    ./teardown_connectors.sh
    ```
 
 1. Run the following command to delete all resources created by Terraform
    ```bash
-   cd DIMT2024/terraform
+   cd ../terraform
    terraform destroy -auto-approve
    ```
 
