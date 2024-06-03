@@ -119,8 +119,8 @@ Update the `.accounts` file for the following variables with your credentials.
 
 1. Run the `setup.sh` script.
    ```bash
-   cd DIMT2024/confluent
-   ./setup.sh
+   cd ../confluent
+   ./setup_centos.sh
    ```
 1. This script achieves the following:
 
