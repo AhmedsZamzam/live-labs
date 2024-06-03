@@ -75,7 +75,7 @@ Update the `.accounts` file for the following variables with your credentials.
 1. Navigate to the `confluent` directory of the project and run `create_env.sh` script. This bash script copies the content of `.accounts` file into a new file called `.env` and append additional variables to it.
 
    ```bash
-   cd DIMT2024/confluent
+   cd ./confluent
    ./create_env.sh
    ```
 
