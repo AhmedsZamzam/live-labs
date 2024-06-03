@@ -321,7 +321,8 @@ If you’re interested in learning more about Flink, you can take the Apache Fli
         end_tstamp TIMESTAMP(3),
         avgViewTime INT
     );
-
+    ```
+    ```sql
     INSERT INTO inactive_users
     SELECT *
     FROM clickstream
@@ -349,6 +350,8 @@ If you’re interested in learning more about Flink, you can take the Apache Fli
         last_name STRING,
         email STRING
     );
+    ```
+    ```sql
     INSERT INTO inactive_customers_enriched
     	SELECT
     		u.user_id,
