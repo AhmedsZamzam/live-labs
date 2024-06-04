@@ -122,6 +122,11 @@ Update the `.accounts` file for the following variables with your credentials.
 1. Run the `setup.sh` script.
    ```bash
    cd ../confluent
+   ```
+   ```bash
+   chmod 777 ./setup_centos.sh
+   ```
+   ```bash
    ./setup_centos.sh
    ```
 1. This script achieves the following:
