@@ -21,12 +21,12 @@ In order to successfully complete this demo you need to install few tools before
   > **Note:** This demo was built and validate on a Mac (x86).
   >
 
-## Appy Confluent Promo Code
+## Apply Confluent Promo Code
 
 Apply Paywal Promo Code in Confluent Cloud:
 
 1. In Confluent UI go to **Billing & payment** then the **Payment details** tab.
-2. Click **+ Promo code** and enter `POP`
+2. Click **+ Promo code** and enter `POPTOUT000DOK**`
 
 ## Setup
 
