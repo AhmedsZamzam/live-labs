@@ -19,6 +19,14 @@ In order to successfully complete this demo you need to install few tools before
 - Download and Install Terraform [here](https://developer.hashicorp.com/terraform/downloads?ajs_aid=837a4ee4-253b-4b3d-bf11-952575792ad1&product_intent=terraform)
 
   > **Note:** This demo was built and validate on a Mac (x86).
+  >
+
+## Appy Confluent Promo Code
+
+Apply Paywal Promo Code in Confluent Cloud:
+
+1. In Confluent UI go to **Billing & payment** then the **Payment details** tab.
+2. Click **+ Promo code** and enter `POP`
 
 ## Setup
 
