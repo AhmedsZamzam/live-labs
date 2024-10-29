@@ -26,7 +26,7 @@ In order to successfully complete this demo you need to install few tools before
 Apply Paywal Promo Code in Confluent Cloud:
 
 1. In Confluent UI go to **Billing & payment** then the **Payment details** tab.
-2. Click **+ Promo code** and enter `POPTOUT000DOK**`
+2. Click **+ Promo code** and enter `POPTOUT0009XZ**`
 
 ## Setup
 
