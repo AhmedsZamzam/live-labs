@@ -426,7 +426,12 @@ Congratulations on building your streaming data pipelines in Confluent Cloud! Yo
 
 # Teardown
 
-1. Run the following command to delete all connectors
+1.Make sure you are in the correct directory
+```bash
+cd ~/live-labs/DIMT2024/confluent
+source ../.env
+```
+2. Run the following command to delete all connectors
 
    ```bash
    ./teardown_connectors.sh
